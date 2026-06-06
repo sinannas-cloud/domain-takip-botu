@@ -1,0 +1,3 @@
+# Takip edilecek alan adlarini her satira bir tane yazin.
+matbux.com
+tonerbul.com

@@ -1,0 +1,15 @@
+{
+  "name": "domain-takip-botu",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "RDAP tabanli alan adi durum takip ve Telegram bildirim botu.",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node src/index.js --once",
+    "test": "node --test"
+  }
+}
