@@ -62,5 +62,5 @@ Her kontrolden sonra `data/state.json` otomatik guncellenir. Boylece ayni
 durum icin tekrar tekrar Telegram mesaji gonderilmez.
 
 GitHub zamanlanmis gorevleri yogunluga bagli olarak gecikebilir. Herkese acik
-depolarda 60 gun boyunca etkinlik olmazsa zamanlanmis gorevler GitHub
-tarafindan devre disi birakilabilir.
+depolarda 60 gun boyunca etkinlik olmazsa zamanlanmis gorevler devre disi
+kalabildigi icin bot 30 gunde bir otomatik yasam isareti kaydi olusturur.

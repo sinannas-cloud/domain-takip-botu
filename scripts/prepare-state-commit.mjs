@@ -3,6 +3,7 @@ import fs from "node:fs";
 
 const stateFile = "data/state.json";
 const volatileKeys = new Set(["checkedAt", "updatedAt"]);
+const heartbeatIntervalMs = 30 * 24 * 60 * 60 * 1000;
 
 function stableValue(value) {
   if (Array.isArray(value)) {
@@ -31,9 +32,15 @@ try {
 }
 
 const currentText = fs.readFileSync(stateFile, "utf8");
-const previous = stableValue(JSON.parse(previousText));
-const current = stableValue(JSON.parse(currentText));
+const previousRaw = JSON.parse(previousText);
+const currentRaw = JSON.parse(currentText);
+const previous = stableValue(previousRaw);
+const current = stableValue(currentRaw);
+const previousUpdateTime = Date.parse(previousRaw.updatedAt);
+const heartbeatDue =
+  Number.isNaN(previousUpdateTime) ||
+  Date.now() - previousUpdateTime >= heartbeatIntervalMs;
 
-if (JSON.stringify(previous) === JSON.stringify(current)) {
+if (!heartbeatDue && JSON.stringify(previous) === JSON.stringify(current)) {
   fs.writeFileSync(stateFile, previousText, "utf8");
 }
