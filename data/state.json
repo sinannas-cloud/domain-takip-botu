@@ -13,12 +13,12 @@
       "changedAt": "2025-12-03T12:04:17Z",
       "registrar": "Dnsgulf Pte. Ltd.",
       "source": "https://rdap.verisign.com",
-      "checkedAt": "2026-07-03T15:53:05.459Z",
+      "checkedAt": "2026-07-09T20:26:37.113Z",
       "failureCount": 0
     },
     "tonerbul.com": {
       "domain": "tonerbul.com",
-      "availability": "registered",
+      "availability": "available",
       "statuses": [
         "client hold",
         "client transfer prohibited",
@@ -30,10 +30,10 @@
       "changedAt": "2026-07-03T09:37:10Z",
       "registrar": "Atak Domain Bilgi Teknolojileri A.S.",
       "source": "https://rdap.verisign.com",
-      "checkedAt": "2026-07-03T15:53:05.455Z",
+      "checkedAt": "2026-07-09T20:26:36.922Z",
       "failureCount": 0,
-      "lastNotificationAt": "2026-07-03T15:53:06.081Z"
+      "lastNotificationAt": "2026-07-09T20:26:37.598Z"
     }
   },
-  "updatedAt": "2026-07-03T15:53:06.082Z"
+  "updatedAt": "2026-07-09T20:26:37.599Z"
 }
