@@ -13,27 +13,25 @@
       "changedAt": "2025-12-03T12:04:17Z",
       "registrar": "Dnsgulf Pte. Ltd.",
       "source": "https://rdap.verisign.com",
-      "checkedAt": "2026-07-09T20:26:37.113Z",
+      "checkedAt": "2026-07-10T08:37:43.105Z",
       "failureCount": 0
     },
     "tonerbul.com": {
       "domain": "tonerbul.com",
-      "availability": "available",
+      "availability": "registered",
       "statuses": [
-        "client hold",
-        "client transfer prohibited",
-        "pending delete"
+        "client transfer prohibited"
       ],
-      "dropPhase": "pending-delete",
-      "registeredAt": "2025-05-13T14:55:25Z",
-      "expiresAt": "2026-05-13T14:55:25Z",
-      "changedAt": "2026-07-03T09:37:10Z",
-      "registrar": "Atak Domain Bilgi Teknolojileri A.S.",
+      "dropPhase": null,
+      "registeredAt": "2026-07-10T06:31:03Z",
+      "expiresAt": "2027-07-10T06:31:03Z",
+      "changedAt": "2026-07-10T06:31:06Z",
+      "registrar": "ODTU Gelistirme Vakfi Bilgi Teknolojileri Sanayi Ve Ticaret Anonim Sirketi",
       "source": "https://rdap.verisign.com",
-      "checkedAt": "2026-07-09T20:26:36.922Z",
+      "checkedAt": "2026-07-10T08:37:43.112Z",
       "failureCount": 0,
-      "lastNotificationAt": "2026-07-09T20:26:37.598Z"
+      "lastNotificationAt": "2026-07-10T08:37:43.629Z"
     }
   },
-  "updatedAt": "2026-07-09T20:26:37.599Z"
+  "updatedAt": "2026-07-10T08:37:43.630Z"
 }
