@@ -3,7 +3,7 @@
   "domains": {
     "matbux.com": {
       "domain": "matbux.com",
-      "availability": "registered",
+      "availability": "unknown",
       "statuses": [
         "active"
       ],
@@ -13,8 +13,9 @@
       "changedAt": "2025-12-03T12:04:17Z",
       "registrar": "Dnsgulf Pte. Ltd.",
       "source": "https://rdap.verisign.com",
-      "checkedAt": "2026-07-10T08:37:43.105Z",
-      "failureCount": 0
+      "checkedAt": "2026-07-12T10:34:31.635Z",
+      "failureCount": 1,
+      "error": "https://rdap.verisign.com: fetch failed"
     },
     "tonerbul.com": {
       "domain": "tonerbul.com",
@@ -28,10 +29,10 @@
       "changedAt": "2026-07-10T06:31:06Z",
       "registrar": "ODTU Gelistirme Vakfi Bilgi Teknolojileri Sanayi Ve Ticaret Anonim Sirketi",
       "source": "https://rdap.verisign.com",
-      "checkedAt": "2026-07-10T08:37:43.112Z",
+      "checkedAt": "2026-07-12T10:34:31.947Z",
       "failureCount": 0,
       "lastNotificationAt": "2026-07-10T08:37:43.629Z"
     }
   },
-  "updatedAt": "2026-07-10T08:37:43.630Z"
+  "updatedAt": "2026-07-12T10:34:31.949Z"
 }
