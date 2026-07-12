@@ -13,7 +13,7 @@
       "changedAt": "2025-12-03T12:04:17Z",
       "registrar": "Dnsgulf Pte. Ltd.",
       "source": "https://rdap.verisign.com",
-      "checkedAt": "2026-07-12T11:41:45.193Z",
+      "checkedAt": "2026-07-12T12:39:08.096Z",
       "failureCount": 0,
       "error": "https://rdap.verisign.com: fetch failed"
     },
@@ -26,13 +26,13 @@
       "dropPhase": null,
       "registeredAt": "2026-07-10T06:31:03Z",
       "expiresAt": "2027-07-10T06:31:03Z",
-      "changedAt": "2026-07-10T06:31:06Z",
+      "changedAt": "2026-07-12T12:37:46Z",
       "registrar": "ODTU Gelistirme Vakfi Bilgi Teknolojileri Sanayi Ve Ticaret Anonim Sirketi",
       "source": "https://rdap.verisign.com",
-      "checkedAt": "2026-07-12T11:41:45.201Z",
+      "checkedAt": "2026-07-12T12:39:08.104Z",
       "failureCount": 0,
       "lastNotificationAt": "2026-07-10T08:37:43.629Z"
     }
   },
-  "updatedAt": "2026-07-12T11:41:45.205Z"
+  "updatedAt": "2026-07-12T12:39:08.109Z"
 }
