@@ -13,13 +13,13 @@
       "changedAt": "2025-12-03T12:04:17Z",
       "registrar": "Dnsgulf Pte. Ltd.",
       "source": "https://rdap.verisign.com",
-      "checkedAt": "2026-07-12T12:39:08.096Z",
+      "checkedAt": "2026-07-24T09:38:09.520Z",
       "failureCount": 0,
       "error": "https://rdap.verisign.com: fetch failed"
     },
     "tonerbul.com": {
       "domain": "tonerbul.com",
-      "availability": "registered",
+      "availability": "unknown",
       "statuses": [
         "client transfer prohibited"
       ],
@@ -29,10 +29,11 @@
       "changedAt": "2026-07-12T12:37:46Z",
       "registrar": "ODTU Gelistirme Vakfi Bilgi Teknolojileri Sanayi Ve Ticaret Anonim Sirketi",
       "source": "https://rdap.verisign.com",
-      "checkedAt": "2026-07-12T12:39:08.104Z",
-      "failureCount": 0,
-      "lastNotificationAt": "2026-07-10T08:37:43.629Z"
+      "checkedAt": "2026-07-24T09:38:09.204Z",
+      "failureCount": 1,
+      "lastNotificationAt": "2026-07-10T08:37:43.629Z",
+      "error": "https://rdap.verisign.com: fetch failed"
     }
   },
-  "updatedAt": "2026-07-12T12:39:08.109Z"
+  "updatedAt": "2026-07-24T09:38:09.524Z"
 }
